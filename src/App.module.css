@@ -1,0 +1,32 @@
+.calculator{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 500px;
+  margin: 200px auto;
+}
+.calculator__value{
+  height: 60px;
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+
+}
+.calculator__btns{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+}
+.calculator__btn{
+  width: calc((100% / 4) - 5px);
+  margin-left: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.calculator__btn--equales {
+  width: calc((100% / 2) - 5px);
+}
